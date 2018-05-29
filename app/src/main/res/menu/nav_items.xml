@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_animals"
+        android:icon="@drawable/animal_paw_print"
+        android:title="@string/nav_animals" />
+    <item
+        android:id="@+id/nav_booking"
+        android:icon="@drawable/add_icon"
+        android:title="@string/nav_booking"
+        android:checked="true"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/male_user_shadow"
+        android:title="@string/nav_profile" />
+</menu>
